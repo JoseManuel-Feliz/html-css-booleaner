@@ -1,6 +1,92 @@
-header {}
+body {
+
+    margin: auto;
+    max-width: 1300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+}
+
+/* heading */
+header h1 {
+    margin-bottom: 0px;
+}
+
+.image {
+    background: #19afeb url(../img/pattern.png) repeat-x;
+    background-size: contain;
+}
+
+.logo {
+    width: 20%;
+    padding: 25px 0px;
+}
+
+.booleaner {
+    color: #19afeb;
+    text-decoration: none;
+}
+
+address {
+    font-style: normal;
+    margin-bottom: 30px;
+}
+
+/* photo area */
+section#photo img {
+    width: 48%;
+    height: 500px;
+}
+
+.photo-description,
+.date {
+    font-size: 0.85rem;
+    display: block;
+}
+
+/* main text */
+.list {
+    padding-left: 20px;
+}
+
+.highlighted {
+    background: #f1f506;
+}
+
+/* board */
+table {
+    border-collapse: collapse;
+    background-color: aqua;
+}
+
+th {
+    width: 325px;
+    text-align: left;
+    background-color: royalblue;
+    color: #ffffff;
+}
+
+.center-row {
+    background-color: #e9e6e6
+}
+
+/* keep exploring */
+#keep-exploring,
+address {
+    font-size: 1.5rem;
+    color: darkgrey;
+}
+
+#monitor,
+#graph {
+    position: relative;
+    color: #ffffff;
+    font-weight: 700;
+}
 
 
-figure {
-    background: #19afeb url(../img/pattern.png);
+#monitor div,
+#graph div {
+    position: absolute;
+    top: 15px;
+    left: 10px;
 }
