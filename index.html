@@ -6,30 +6,33 @@
   <meta name="viewport" content="width-device-width, initial-scale=1.0">
   <meta name="descriotion" content="L'internet deve essere al sevizio di tutti">
   <meta name="author" content="The Booleaner">
-  <link rel="icon" href="../img/logo.svg" type="image/ico">
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" href="./img/logo.svg" type="image/ico">
+  <link rel="stylesheet" href="./css/style.css">
   <title>L'internet deve essere al sevizio di tutti</title>
 </head>
 
 <body>
   <!-- heading -->
-  <header>
-    <div class="image">
-      <img class="logo" src="../img/logo.svg" alt="The Booleaner Logo">
+  <header class="bg-img">
+    <div class="container">
+      <img class="logo" src="./img/logo.svg" alt="The Booleaner Logo">
     </div>
-    <h1>Internet deve essere al servizio del "bene pubblico": il manisfesto di Tim Berners Lee</h1>
-    <address>
-      Scritto da <a class="booleaner" href="https://thebooleaner.it">The booleaner</a>
-      <span class="date">il 10/10/2020</span>
-    </address>
   </header>
 
-  <main>
+  <main class="container">
+    <!-- Article Title -->
+    <header class="title">
+      <h1>Internet deve essere al servizio del "bene pubblico": il manisfesto di Tim Berners Lee</h1>
+      <address>
+        Scritto da <a class="booleaner" href="#">The booleaner</a>
+        <span class="date">il 10/10/2020</span>
+      </address>
+    </header>
     <!-- Photo area -->
     <section id="photo">
-      <div>
-        <img src="../img/tim-1.jpg" alt="John S. and James L. photo">
-        <img src="../img/tim-2.jpg" alt="Tim Berners Lee photo">
+      <div class="img-wrapper">
+        <img src="./img/tim-1.jpg" alt="John S. and James L. photo">
+        <img src="./img/tim-2.jpg" alt="Tim Berners Lee photo">
       </div>
       <div class="photo-description">1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</div>
       <div class="photo-description">2nd Photo: Tim Berners Lee, by Paul Clarke</div>
@@ -105,13 +108,17 @@
     <section id="keep-exploring">
       <h3>Potrebbero Interessarti</h3>
       <div id="monitor">
-        <div>Lorem Ipsum Dolor</div>
-        <img src="../img/monitor.jpg" alt="Monitor photo">
+        <a class="interesing-content" href="#">
+          <div>Lorem Ipsum Dolor</div>
+          <img src="./img/monitor.jpg" alt="Monitor photo">
+        </a>
       </div>
 
       <div id="graph">
-        <div>Lorem Ipsum Dolor</div>
-        <img src="../img/graph.jpg" alt="Graph photo">
+        <a class="interesing-content" href="#">
+          <div>Lorem Ipsum Dolor</div>
+          <img src="./img/graph.jpg" alt="Graph photo">
+        </a>
       </div>
     </section>
   </main>

@@ -1,28 +1,44 @@
-body {
-
-    margin: auto;
-    max-width: 1300px;
+/* Reset */
+* {
+    margin: 0;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.3rem;
 }
 
-/* heading */
-header h1 {
-    margin-bottom: 0px;
+:root {
+    --ligth-blue: #19afeb;
+    --acqua: #00ffff;
+    --dark-blue: #4169e1;
+    --white: #ffffff;
+    --light-grey: #e9e6e6;
+    --darkgrey: #a9a9a9;
+    --yellow: #f1f506;
 }
 
-.image {
-    background: #19afeb url(../img/pattern.png) repeat-x;
-    background-size: auto;
+
+/* Utils */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* heading */
+.bg-img {
+    background: var(--ligth-blue) url(../img/pattern.png) repeat-x;
+}
+
+h1 {
+    font-size: 2rem;
 }
 
 .logo {
-    width: 20%;
+    width: 200px;
     padding: 25px 0px;
 }
 
 .booleaner {
-    color: #19afeb;
+    color: var(--ligth-blue);
     text-decoration: none;
 }
 
@@ -32,7 +48,7 @@ address {
 }
 
 /* photo area */
-section#photo img {
+#photo img {
     width: 48%;
     height: 500px;
 }
@@ -49,40 +65,42 @@ section#photo img {
 }
 
 .highlighted {
-    background: #f1f506;
+    background: var(--yellow);
 }
 
 /* board */
 table {
-    border-collapse: collapse;
-    background-color: aqua;
+    background-color: var(--acqua);
 }
 
 th {
     width: 325px;
     text-align: left;
-    background-color: royalblue;
-    color: #ffffff;
+    background-color: var(--dark-blue);
+    color: var(--white);
 }
 
 .center-row {
-    background-color: #e9e6e6
+    background-color: var(--light-grey);
 }
 
 /* keep exploring */
 #keep-exploring,
 address {
     font-size: 1.5rem;
-    color: darkgrey;
+    color: var(--dark-grey);
 }
 
 #monitor,
 #graph {
     position: relative;
-    color: #ffffff;
-    font-weight: 700;
 }
 
+.interesing-content {
+    font-weight: 700;
+    color: var(--white);
+    text-decoration: none;
+}
 
 #monitor div,
 #graph div {
