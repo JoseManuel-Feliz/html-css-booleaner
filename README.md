@@ -107,4 +107,4 @@ Se trovi un **bug** o hai un'idea per migliorare il progetto, apri un'**issue** 
 
 ---
 
-🚀 **Creato con passione durante il bootcamp Boolean!**
+❤️ **Creato con passione durante il bootcamp Boolean!**
