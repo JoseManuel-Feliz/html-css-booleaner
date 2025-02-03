@@ -85,11 +85,13 @@ Se trovi un **bug** o hai un'idea per migliorare il progetto, apri un'**issue** 
 2. Clicca su **New Issue**.
 3. Descrivi il problema in modo dettagliato.
 4. Se possibile, allega screenshot o log di errore.
-   **Come proporre una nuova funzionalità:**
-5. Vai alla sezione **Issues**.
-6. Clicca su **New Issue**.
-7. Seleziona **Feature Request**. _(Se non trovi questa opzione, crea comunque la issue e aggiungi manualmente l'etichetta `feature request` oppure indica nella descrizione che si tratta di una proposta di funzionalità.)_
-8. Spiega il miglioramento proposto.
+
+**Come proporre una nuova funzionalità:**
+
+1. Vai alla sezione **Issues**.
+2. Clicca su **New Issue**.
+3. Seleziona **Feature Request**. _(Se non trovi questa opzione, crea comunque la issue e aggiungi manualmente l'etichetta `feature request` oppure indica nella descrizione che si tratta di una proposta di funzionalità.)_
+4. Spiega il miglioramento proposto.
 
 ---
 
